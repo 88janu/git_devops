@@ -10,8 +10,10 @@ do
 	fi
 	if [ $num -gt $i ]
 	then
-		largest=$num
+		echo "larhest is $num"
+                largest=$num
 	else
+             echo "largest number is $i"
 		largest=$i
 		num=$i
 	fi
