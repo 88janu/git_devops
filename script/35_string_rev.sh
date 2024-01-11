@@ -10,4 +10,5 @@ do
 	count=`expr $count - 1`
 done
 echo "$final"
+echo "hi"
 
