@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -x
 #read -p "enter the word to check palandrome" pname
-name=`echo $1| rev`
+name=`echo $pname| rev`
 echo "$name"
 if [ $name == $1 ]
 then
