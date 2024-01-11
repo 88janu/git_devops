@@ -10,14 +10,14 @@ do
 	fi
 	if [ $num -gt $i ]
 	then
-		echo "larhest is $num"
+		
                 largest=$num
 	else
-             echo "largest number is $i"
+             
 		largest=$i
 		num=$i
 	fi
 	count=`expr $count + 1`
 
 done
-
+echo "largest number is $largest"
