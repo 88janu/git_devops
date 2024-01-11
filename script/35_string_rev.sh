@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "ebter the word" name
+#read -p "ebter the word" name
 count=`echo -n $name | wc -c`
 while [ $count -gt 0 ]
 do
