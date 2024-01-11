@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+#set -x
 #read -p "enter the word to check palandrome" pname
 name=`echo $1| rev`
 echo "$name"
