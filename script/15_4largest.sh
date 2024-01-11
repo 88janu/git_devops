@@ -1,8 +1,8 @@
 #!/bin/bash
-read -p "enter the 1st number" num1
-read -p " enter the second number" num2
-read -p "enter the third number" num3
-read -p "enter the fourth number" num4
+#read -p "enter the 1st number" num1
+#read -p " enter the second number" num2
+#read -p "enter the third number" num3
+#read -p "enter the fourth number" num4
 
 echo "the numbers which are to be compare is ${num1} ${num2} ${num3} ${num4} "
 
